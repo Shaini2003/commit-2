@@ -1,0 +1,78 @@
+.paragraf {
+    background-color: rgb(255, 170, 0);
+    color: black;
+    text-align: justify;
+}
+
+#heading {
+    background-color: black;
+    color: rgb(0, 100, 128);
+    text-align: center;
+}
+
+#heading2 {
+    background-color: blueviolet;
+    color: black;
+    text-align: center;
+}
+
+.odd {
+    background-color: rgb(175, 167, 43);
+    color: rgb(2, 24, 18);
+    padding: 40px;
+    margin: 50px;
+}
+
+.even {
+    background-color: rgb(147, 194, 210);
+    color: rgb(18, 127, 146);
+    padding: 40px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+.btn-login {
+    background-color: blue;
+    padding: 10px;
+    color: white;
+    font-size: larger;
+    width: 100px;
+    border: none;
+    border-radius: 10px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.btn-login:hover {
+    background-color: blueviolet;
+}
+
+.bn-login:active {
+    background-color: rgb(235, 17, 17);
+    border: 1px solid black;
+}
+body{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDsou-9Yj0s2NTQ1pGx4zvMQj12BW1NUvgLA&s");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.box1{
+    position:relative;
+    left: 50px;
+    top: 20px;
+    width: 100px;
+    height:100px;
+    background-color: brown;
+}
+.box2{
+    position:relative;
+    left: 20px;
+    top: 25px;
+    width: 50px;
+    height:50px;
+    background-color: rgb(39, 9, 99);
+}
